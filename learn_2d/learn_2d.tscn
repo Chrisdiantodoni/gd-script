@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://t0mcntajx2h"]
+
+[ext_resource type="Script" uid="uid://da67anybpe0hx" path="res://learn_2d/work_with_numbers.gd" id="1_b0nrf"]
+[ext_resource type="Script" uid="uid://ctmrt4mpbyhuj" path="res://learn_2d/work_with_strings.gd" id="2_cpsih"]
+[ext_resource type="Script" uid="uid://ddj5rk1psugy6" path="res://learn_2d/work_with_booleans.gd" id="3_ee1pb"]
+[ext_resource type="Script" uid="uid://csrgb7obl3exr" path="res://learn_2d/work_with_static.gd" id="4_rd2u4"]
+[ext_resource type="Script" uid="uid://ljbk37trqqxy" path="res://learn_2d/work_with_export.gd" id="5_o1nlb"]
+
+[node name="Learn2D" type="Node2D"]
+
+[node name="WorkWithNumbers" type="Node2D" parent="."]
+script = ExtResource("1_b0nrf")
+
+[node name="WorkWithStrings" type="Node2D" parent="."]
+script = ExtResource("2_cpsih")
+
+[node name="WorkWithBooleans" type="Node2D" parent="."]
+script = ExtResource("3_ee1pb")
+
+[node name="WorkWithStatic" type="Node2D" parent="."]
+script = ExtResource("4_rd2u4")
+
+[node name="WorkWithExport" type="Node2D" parent="."]
+script = ExtResource("5_o1nlb")
