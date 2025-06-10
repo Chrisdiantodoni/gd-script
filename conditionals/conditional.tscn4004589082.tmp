@@ -1,11 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://dk8usxom01qtk"]
+[gd_scene load_steps=6 format=3 uid="uid://dk8usxom01qtk"]
 
 [ext_resource type="Script" uid="uid://cgv6biadngmsc" path="res://conditionals/IfConditional.gd" id="1_q8a04"]
 [ext_resource type="Script" uid="uid://bybbf3tigwd7t" path="res://conditionals/else_structure.gd" id="2_t7u8d"]
 [ext_resource type="Script" uid="uid://cnttpvdnyd2ne" path="res://conditionals/ternary_operator.gd" id="3_fehkw"]
 [ext_resource type="Script" uid="uid://djnob4wjqn0mk" path="res://conditionals/match.gd" id="4_6vl5p"]
 [ext_resource type="Script" uid="uid://ubex3bpihvnx" path="res://conditionals/and_operator.gd" id="5_3l8lw"]
-[ext_resource type="Script" uid="uid://bi8j73di88pr6" path="res://conditionals/or_operator.gd" id="6_5j3ot"]
 
 [node name="Conditional" type="Node2D"]
 
@@ -27,6 +26,3 @@ script = ExtResource("4_6vl5p")
 script = ExtResource("5_3l8lw")
 num1 = 15
 num2 = 10
-
-[node name="OROperator" type="Node2D" parent="."]
-script = ExtResource("6_5j3ot")

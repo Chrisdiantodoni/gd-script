@@ -14,4 +14,21 @@ func _ready() -> void:
 			print("The value is between 1 and 3.")
 		4,5,6:
 			print("The value is between 4 and 6.")
-	pass
+			
+	var player_state: String = "running"
+	match player_state:
+		"idle":
+			print("The player is idle.")
+		"running" : 
+			print("The Player is running")
+			
+	var points:int = 75
+	match points: 
+		var p when p >= 90:
+			print("Perfect Score.")
+		var p when p >= 70:
+			print("Very Good")
+		var p when p >= 50:
+			print("OK")
+		_:
+			print("Invalid score")
