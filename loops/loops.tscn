@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://gxjwc1afvs0c"]
+
+[ext_resource type="Script" uid="uid://cog58a2q5adt5" path="res://loops/while_loop.gd" id="1_qtakc"]
+[ext_resource type="Script" uid="uid://jp6lok6ihv2d" path="res://loops/for_loop.gd" id="2_i00d8"]
+[ext_resource type="Script" uid="uid://b8ydiqr4y5lxs" path="res://loops/for_loop_exercice.gd" id="3_mensu"]
+
+[node name="Loops" type="Node2D"]
+
+[node name="WhileLoop" type="Node2D" parent="."]
+script = ExtResource("1_qtakc")
+
+[node name="ForLoop" type="Node2D" parent="."]
+script = ExtResource("2_i00d8")
+
+[node name="ForLoopExercice" type="Node2D" parent="."]
+script = ExtResource("3_mensu")

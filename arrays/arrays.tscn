@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://btkgocwaiowt5"]
+
+[ext_resource type="Script" uid="uid://b8hrryr7ae2hn" path="res://learn_arrays.gd" id="1_bjeji"]
+[ext_resource type="Script" uid="uid://b1fvb4p4m0hjg" path="res://arrays/arrays_with_for.gd" id="2_ckbhn"]
+[ext_resource type="Script" uid="uid://bp56fno46gt5b" path="res://arrays/array_exercise.gd" id="3_uh2w6"]
+
+[node name="Arrays" type="Node2D"]
+
+[node name="LearnArrays" type="Node2D" parent="."]
+script = ExtResource("1_bjeji")
+
+[node name="ArraysWithFor" type="Node2D" parent="."]
+script = ExtResource("2_ckbhn")
+
+[node name="ArrayExercise" type="Node2D" parent="."]
+script = ExtResource("3_uh2w6")

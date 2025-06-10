@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfsj3c6i6wxji"]
+
+[ext_resource type="Script" uid="uid://df57dgnxqvrag" path="res://methods/work_with_methods.gd" id="1_druut"]
+[ext_resource type="Script" uid="uid://cyiyq42gg4ctu" path="res://methods/method_with_parent.gd" id="2_nofi1"]
+[ext_resource type="Script" uid="uid://dy4ujbtmshdq" path="res://methods/method_return_values.gd" id="3_7coar"]
+
+[node name="Methods" type="Node2D"]
+
+[node name="WorkWithMethods" type="Node2D" parent="."]
+script = ExtResource("1_druut")
+
+[node name="MethodWithParent" type="Node2D" parent="."]
+script = ExtResource("2_nofi1")
+
+[node name="MethodReturnValues" type="Node2D" parent="."]
+script = ExtResource("3_7coar")

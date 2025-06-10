@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dk8usxom01qtk"]
+[gd_scene load_steps=10 format=3 uid="uid://dk8usxom01qtk"]
 
 [ext_resource type="Script" uid="uid://cgv6biadngmsc" path="res://conditionals/IfConditional.gd" id="1_q8a04"]
 [ext_resource type="Script" uid="uid://bybbf3tigwd7t" path="res://conditionals/else_structure.gd" id="2_t7u8d"]
@@ -6,13 +6,14 @@
 [ext_resource type="Script" uid="uid://djnob4wjqn0mk" path="res://conditionals/match.gd" id="4_6vl5p"]
 [ext_resource type="Script" uid="uid://ubex3bpihvnx" path="res://conditionals/and_operator.gd" id="5_3l8lw"]
 [ext_resource type="Script" uid="uid://bi8j73di88pr6" path="res://conditionals/or_operator.gd" id="6_5j3ot"]
+[ext_resource type="Script" uid="uid://d6r1eb87m5vl" path="res://conditionals/not_operator.gd" id="7_sc2vg"]
+[ext_resource type="Script" uid="uid://or68d0djju12" path="res://conditionals/elif.gd" id="8_1oeb5"]
+[ext_resource type="Script" uid="uid://l60o42uaba0i" path="res://conditionals/nested_if.gd" id="9_vxqjk"]
 
 [node name="Conditional" type="Node2D"]
 
 [node name="IfConditional" type="Node2D" parent="."]
 script = ExtResource("1_q8a04")
-option = 2
-value = 2.0
 
 [node name="ElseStructure" type="Node2D" parent="."]
 script = ExtResource("2_t7u8d")
@@ -30,3 +31,16 @@ num2 = 10
 
 [node name="OROperator" type="Node2D" parent="."]
 script = ExtResource("6_5j3ot")
+
+[node name="NOTOperator" type="Node2D" parent="."]
+script = ExtResource("7_sc2vg")
+age = 20
+
+[node name="ELIF" type="Node2D" parent="."]
+script = ExtResource("8_1oeb5")
+num1 = 10.0
+num2 = 20.0
+
+[node name="NestedIf" type="Node2D" parent="."]
+script = ExtResource("9_vxqjk")
+num_books = 5
